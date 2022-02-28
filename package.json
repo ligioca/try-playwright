@@ -1,0 +1,21 @@
+{
+  "name": "try-playwright",
+  "version": "1.0.0",
+  "description": "Trying out playwright",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ligioca/try-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ligioca/try-playwright/issues"
+  },
+  "homepage": "https://github.com/ligioca/try-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2"
+  }
+}
