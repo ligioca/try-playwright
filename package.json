@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Trying out playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test-headed": "playwright test --headed --reporter=list"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ligioca/try-playwright.git"
