@@ -1,2 +1,2 @@
 # try-playwright
-Trying playwright
+Trying out playwright
