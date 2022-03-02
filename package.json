@@ -4,7 +4,10 @@
   "description": "Trying out playwright",
   "main": "index.js",
   "scripts": {
-    "test-headed": "playwright test --headed --reporter=list"
+    "test:local": "playwright test --headed --reporter=list",
+    "test:local:headless": "playwright test --reporter=list",
+    "test:docker": "xvfb-run playwright test --headed --reporter=list",
+    "test:docker:headless": "xvfb-run playwright test --reporter=list"
   },
   "repository": {
     "type": "git",

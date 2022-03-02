@@ -1,4 +1,5 @@
-const { test, expect } = require('@playwright/test');
+const { test, expect, chromium } = require('@playwright/test');
+
 
 test('basic test chrome', async ({ page }) => {
   await page.goto('https://playwright.dev/');
