@@ -18,5 +18,5 @@ npm run test:local:headless
 Run locally with docker:
 
 ```
-docker-compose up
+docker-compose up --build
 ```
