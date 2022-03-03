@@ -15,16 +15,8 @@ Run locally headless:
 npm run test:local:headless
 ```
 
-Run locally in docker:
+Run locally with docker:
 
 ```
-docker build -t "pwdocker:Dockerfile" . && docker run -it pwdocker:Dockerfile
-```
-
-```
-npm run test:docker
-```
-or headless:
-```
-npm run test:docker:headless
+docker-compose up
 ```

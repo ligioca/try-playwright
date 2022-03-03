@@ -1,3 +1,5 @@
 FROM mcr.microsoft.com/playwright:focal
+COPY package.json ./
+RUN npm install
 COPY ./ ./
-RUN apt-get update && npm install
+RUN npm run test:docker
