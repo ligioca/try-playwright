@@ -60,7 +60,7 @@ test('Login', async ({ }) => {
   // const contentFrame2 = await handle2.contentFrame()
   
   await dialpadFrame.callNumber("+18449261760") // we can make a constant in env for this
-  await expect(page.locator('.status-button-module__current-status-name')).toHaveText('On a Call') 
+  await expect(page.locator('.status-button-module__current-status-name')).toHaveText('On a cCall') 
   
   // const offerScreen2 = new CallActions(contentFrame2) 
 
